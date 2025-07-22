@@ -44,13 +44,6 @@ Este projeto serve como base para que um novo desenvolvedor possa:
 
 ---
 
-## Como rodar
-
-```bash
-./gradlew assembleDebug
-
-# Task Manager App
-
 ## 📌 Overview
 
 This is a modular Android project built with MVVM architecture.  
@@ -93,7 +86,9 @@ This project aims to:
 
 ---
 
-## ▶️ How to Build
+## ▶️ Como rodar/ How to Build
+
+
 
 ```bash
 ./gradlew assembleDebug
