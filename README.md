@@ -3,7 +3,7 @@
 > Bilingual README – English below 🇬🇧
 ---
 
-## 📌 Visão Geral (Português)
+## 📌 Visão Geral
 
 Este é um projeto Android multimodular desenvolvido com arquitetura MVVM.  
 Ele foi projetado com o objetivo de ensinar um novo desenvolvedor a programar do zero, separando responsabilidades de forma clara.
