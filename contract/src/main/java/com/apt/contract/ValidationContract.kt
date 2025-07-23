@@ -1,8 +1,8 @@
 package com.apt.contract
 
-import com.apt.model.Task
+import com.apt.core.model.Response
 
 interface ValidationContract {
-    suspend fun isTitleValid(title: String): Result<Boolean>
-    suspend fun isDescriptionValid(description: String): Result<Boolean>
+    suspend fun isTitleValid(title: String): Response<Boolean>
+    suspend fun isDescriptionValid(description: String): Response<Boolean>
 }
