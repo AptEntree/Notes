@@ -1,10 +1,14 @@
 plugins {
     alias(libs.plugins.android.library)
+    alias(libs.plugins.jetbrains.kotlin.android)
 }
 
 android {
     namespace = "com.apt.notes"
     compileSdk = 35
+    kotlinOptions {
+        jvmTarget = "17"
+    }
 }
 
 java {
@@ -15,5 +19,6 @@ java {
 dependencies {
 
     implementation(project(":core"))
+    implementation(libs.core.ktx)
 
 }
