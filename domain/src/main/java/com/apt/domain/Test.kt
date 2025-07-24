@@ -1,4 +1,4 @@
 package com.apt.domain
 
-class MyClass {
+class Test {
 }
