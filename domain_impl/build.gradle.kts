@@ -19,7 +19,7 @@ java {
 dependencies {
 
     implementation(project(":core"))
-    implementation(project(":contract"))
+    implementation(project(":domain_contract"))
     implementation(libs.core.ktx)
 
 }

@@ -8,18 +8,18 @@ import kotlinx.coroutines.flow.Flow
 class TaskContractImpl: TaskContract {
 
     override suspend fun getTasks(): Flow<Response<List<Task>>> {
-        // Implementation here
+        TODO()
     }
 
     override suspend fun addTask(task: Task): Flow<Response<Boolean>> {
-        // Implementation here
+        TODO()
     }
 
     override suspend fun updateTask(task: Task): Flow<Response<Boolean>> {
-        // Implementation here
+        TODO()
     }
 
     override suspend fun deleteTask(id: Int): Flow<Response<Boolean>> {
-        // Implementation here
+        TODO()
     }
 }

@@ -20,5 +20,10 @@ dependencies {
 
     implementation(project(":core"))
     implementation(libs.core.ktx)
+    implementation(libs.koin.android)
+    implementation(libs.koin.android.compat)
+    implementation(libs.koin.androidx.workmanager)
+    implementation(libs.koin.androidx.navigation)
+    implementation(libs.koin.androidx.startup)
 
 }

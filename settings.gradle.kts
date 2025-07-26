@@ -22,8 +22,9 @@ dependencyResolutionManagement {
 rootProject.name = "Notes"
 include(":app")
 include(":dsm")
-include(":contract")
-include(":data")
-include(":domain")
+include(":domain_contract")
+include(":data_impl")
+include(":domain_impl")
 include(":core")
 include(":di")
+include(":data_contract")
